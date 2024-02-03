@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 50%;
+  padding: 2em;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  background-color: #fff;
+}
+
+header {
+  margin-bottom: 2.5rem;
+}
+
+header img {
+  max-width: 50vw;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+header h2 {
+  font-family: "Young Serif", serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: rgb(31, 30, 30);
+  margin-bottom: 1rem;
+}
+
+header p {
+  margin-bottom: 0.5rem;
+}
+
+.preptime h4,
+.preptime li::marker {
+  font-weight: 600;
+  color: rgb(123, 40, 79);
+}
+
+.preptime {
+  margin: 0 0 3.5rem 1.5rem;
+}
+
+.preptime ul li {
+  margin: 0.5em 0 1em 1.5em;
+}
+
+.ingredients {
+  margin-bottom: 2em;
+}
+
+.ingredients h2 {
+  font-family: "Young Serif", serif;
+  letter-spacing: 1px;
+  font-size: 24px;
+  font-weight: 900;
+  color: rgb(133, 70, 50);
+  margin-bottom: 1em;
+}
+
+.ingredients li::marker {
+  color: rgb(133, 70, 50);
+}
+
+.ingredients ul li {
+  margin: 0.5em 0 0.5em 1.5em;
+}
+
+.instructions {
+  margin-bottom: 2em;
+}
+
+.instructions h2 {
+  font-family: "Young Serif", serif;
+  letter-spacing: 1px;
+  font-size: 24px;
+  font-weight: 900;
+  color: rgb(133, 70, 50);
+  margin-bottom: 1em;
+}
+
+.instructions li::marker {
+  color: rgb(133, 70, 50);
+}
+
+.instructions ol li {
+  margin: 0.5em 0 0.5em 1.5em;
+}
+
+.nutrition h2 {
+  font-family: "Young Serif", serif;
+  letter-spacing: 1px;
+  font-size: 24px;
+  font-weight: 900;
+  color: rgb(133, 70, 50);
+  margin-bottom: 0.5em;
+}
+
+.column {
+  width: 23.5vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nutrition-left p,
+.nutrition-right p {
+  margin: 1.5em 5em 0 2em;
+}
+
+.nutrition-right p {
+  font-weight: 600;
+  color: rgb(133, 70, 50);
+}
