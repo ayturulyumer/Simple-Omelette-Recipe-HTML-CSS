@@ -118,3 +118,14 @@ header p {
   font-weight: 600;
   color: rgb(133, 70, 50);
 }
+
+@media (max-width: 375px) {
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  header img {
+    max-width: 100%;
+  }
+}
